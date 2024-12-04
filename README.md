@@ -1,7 +1,7 @@
 # Funnyball - A Baseball Statistics Predictor Inspired by Moneyball (2011)
-In this project, we'll create a machine learning model that can predict a Major League Baseball player's future Wins Above Replacement (WAR) statistic for the next season based off current statistics using Python, Pandas, and Machine Learning.
+In this project, I created a machine learning model that can predict a Major League Baseball player's future Wins Above Replacement (WAR) statistic for the next season based off current statistics using Python, Pandas, and Machine Learning.
 
-We first download baseball players' season data using the `pybaseball` library and clean the data. Next, we perform feature selection with a sequential feature selector to identify the most relevant predictors for our machine learning model. Using these features, we train a ridge regression model to predict players' future season WAR. Finally, we evaluate the model's performance and measure error to improve its accuracy.
+I first downloaded baseball players' season data using the `pybaseball` library and cleaned the data. Next, I performed feature selection with a sequential feature selector to identify the most relevant predictors for my machine learning model. Using these features, I trained a ridge regression model to predict players' future season WAR. Finally, I evaluated the model's performance and measured error to improve its accuracy.
 
 **Project Steps Summarized**
 * Download baseball season data
@@ -15,7 +15,7 @@ We first download baseball players' season data using the `pybaseball` library a
 * `batting.csv` - A CSV file with all the player data during and between the 2002 and 2022 MLB seasons.
 
 ## Local Setup and Installation
-Please install the following Python libraries locally to run this project correctly:
+The following Python libraries are necessary to run this project correctly:
 * `os`
 * `pandas`
 * `numpy`
